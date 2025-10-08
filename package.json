@@ -1,0 +1,27 @@
+{
+    "name": "h3-starter",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "bun run --watch server.mjs",
+        "dev": "node --watch ./server.mjs"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/fifo2024/h3-starter.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "commonjs",
+    "bugs": {
+        "url": "https://github.com/fifo2024/h3-starter/issues"
+    },
+    "homepage": "https://github.com/fifo2024/h3-starter#readme",
+    "dependencies": {
+        "h3": "^2.0.0-beta.5",
+        "crossws": "^0.4.1"
+    }
+}
